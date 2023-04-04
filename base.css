@@ -1,0 +1,63 @@
+/* border box fix */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+
+    font-family:Verdana, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(94, 94, 94);
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 1.5vw;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    max-width: 400px;
+    width: 90%;
+}
+
+/* Backup coding
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    padding: 10px;
+    background:rgb(255, 187, 0);
+    color:rgb(0, 0, 0);
+    font-size: 1vw;
+    border-width: 100%;
+}*/
+
+li a:hover {
+    color:rgb(255, 201, 24)
+}
+
+img {
+width: 30%;
+}
+
+body {
+    background-color: rgb(202, 202, 202);
+}
